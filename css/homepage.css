@@ -3,4 +3,47 @@ body {
     background-size: cover;
     padding: 0;
     margin: 0;
+
+}
+
+.main-container {
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 4.5em 4.5em 0 4.5em;
+    box-sizing: border-box;
+}
+
+.homepage-text-container {
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+    padding-left: 3em;
+}
+
+.homepage-text-container h1 {
+    font-family: 'Anton', sans-serif;
+    color: #8A542C;
+    text-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    font-size: 3.5rem;
+    margin-bottom: 0;
+}
+
+.homepage-text-container p {
+    font-family: 'Poppins', sans-serif;
+    /* border: 1px solid black; */
+    width: 80%;
+}
+
+.rizal-img-container {
+    /* border: 1px solid black; */
+    text-align: right;
+    padding-right: 3em;
+    box-sizing: border-box;
+
+}
+
+.rizal-img {
+    width: 20rem;
+    border-radius: 50%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
