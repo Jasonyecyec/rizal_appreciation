@@ -46,6 +46,11 @@
     transition: 250ms ease-in-out;
 }
 
+#active-link {
+    color: #8A542C;
+    border-bottom: 3px solid #8A542C;
+}
+
 .link-container a:hover {
     color: #8A542C;
 }
