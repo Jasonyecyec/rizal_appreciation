@@ -1,0 +1,51 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: bisque; */
+    box-sizing: border-box;
+    padding: 1.3em 4em;
+    font-family: 'Anton', sans-serif;
+    font-size: 1.2rem;
+}
+
+.logo-container {
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rizal-logo {
+    width: 8rem;
+    margin: 0;
+}
+
+.link-container {
+    display: flex;
+    justify-content: space-between;
+    width: 25rem;
+    /* background-color: red; */
+}
+
+.link-container {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.link-container li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.link-container a {
+    text-decoration: none;
+    color: black;
+    transition: 250ms ease-in-out;
+}
+
+.link-container a:hover {
+    color: #8A542C;
+}
