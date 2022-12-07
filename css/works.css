@@ -1,0 +1,67 @@
+body {
+    background-image: url("../img/hompageBg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+
+}
+
+:root {
+    --main: #8A542C;
+}
+
+h1 {
+    /* border: 1px solid black; */
+    font-family: "Anton", sans-serif;
+    color: #8A542C;
+    text-align: center;
+    margin-top: 10rem;
+    font-size: 3rem;
+    margin-bottom: 5rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.main-content-container {
+    /* border: 1px solid black; */
+    margin: 1rem 10rem;
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+}
+
+.painting-container {
+    width: 18rem;
+    background-image: url("../img/novel_bg.png");
+    color: white;
+    margin: 1.5rem;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    padding: 1em;
+    box-sizing: border-box;
+    transition: 250ms ease-in-out;
+}
+
+.painting-container:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: translateY(-10px);
+}
+
+
+
+.painting-container p:first-of-type {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.span-details {
+    color: #8A542C;
+}
+
+.painting-img {
+    width: 100%;
+    height: 15rem;
+}
