@@ -54,3 +54,46 @@
 .link-container a:hover {
     color: #8A542C;
 }
+
+#rizal-focus-hover {
+    position: relative;
+    /* background: #8A542C; */
+}
+
+.rizal-focus-container {
+    display: none;
+    position: absolute;
+    bottom: -7rem;
+    left: 0;
+    box-sizing: border-box;
+    width: 10rem;
+    border-radius: 8px;
+    padding: 0;
+    list-style: none;
+    transition: 300ms ease-in-out;
+    color: white;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+
+.rizal-focus-container li:hover {
+    background-color: #72482A;
+    border-radius: 8px;
+}
+
+.rizal-focus-container li a {
+    box-sizing: border-box;
+    width: 100%;
+    display: inline-block;
+    padding: .7em;
+    color: white;
+}
+
+#rizal-focus-hover:hover .rizal-focus-container {
+    display: block;
+
+}
+
+.rizal-focus-container {
+    background-color: #8A542C;
+}

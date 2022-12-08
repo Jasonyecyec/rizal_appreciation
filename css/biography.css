@@ -1,0 +1,35 @@
+body {
+    background-image: url("../img/hompageBg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+
+}
+
+:root {
+    --main: #8A542C;
+}
+
+h1 {
+    /* border: 1px solid black; */
+    font-family: "Anton", sans-serif;
+    color: #8A542C;
+    text-align: center;
+    margin-top: 10rem;
+    font-size: 2.5rem;
+    margin-bottom: 5rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.main-content-container {
+    background-image: url("../img/novel_bg.png");
+    /* border: 1px solid black; */
+    background-position: top;
+    width: 75%;
+    margin: 6rem auto;
+    font-family: "Poppins", sans-serif;
+    padding: 3em;
+    box-sizing: border-box;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
